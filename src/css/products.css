@@ -1,0 +1,55 @@
+/* CSS cho phần khung ảnh và giới thiệu sản phẩm */
+.product-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .product-image {
+    margin-left: 4%;
+    flex: 1;
+  }
+  
+  .product-image img {
+    width: 100%;
+    max-width: 400px; /* Điều chỉnh kích thước ảnh tùy ý */
+  }
+  
+  .product-intro {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .product-intro h2 {
+    font-size: 24px;
+  }
+  
+  .product-intro p {
+    font-size: 16px;
+  }
+
+  /* CSS cho nút "Thêm vào giỏ hàng" và "Mua" */
+.product-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .add-to-cart,
+  .buy-now {
+      padding: 10px 20px;
+      background-color: #ffa500;
+      border: none;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Hover style cho nút */
+    .add-to-cart:hover,
+    .buy-now:hover {
+      background-color: #ffcc00;
+  }
+  

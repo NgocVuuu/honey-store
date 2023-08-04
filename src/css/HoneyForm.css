@@ -1,0 +1,40 @@
+/* CSS cho thành phần HoneyForm */
+.honey-form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.honey-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.honey-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.honey-form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.honey-form-container input,
+.honey-form-container textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.honey-form-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.honey-form-container button:hover {
+  background-color: #0056b3;
+}

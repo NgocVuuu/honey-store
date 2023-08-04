@@ -1,0 +1,84 @@
+/* CSS cho header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 25px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Thêm quy tắc CSS cho dòng "Free ship" */
+.free-ship {
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2CFB3;
+  padding: 10px 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.logo i{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.logo:hover {
+  color: yellowgreen;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #F2CFB3;  
+}
+
+.navigation-icons {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon,
+.user-icon,
+.cart-icon {
+  margin-right: 30px;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+}
+
+
+
+/* Kiểu hiển thị khi màn hình có kích thước nhỏ */
+@media screen and (max-width: 768px) {
+  .logo {
+    /* Các thuộc tính CSS cho logo khi ở kích thước nhỏ */
+  }
+  
+  .nav-links {
+    /* Các thuộc tính CSS cho danh sách điều hướng khi ở kích thước nhỏ */
+  }
+  
+  /* ... */
+}
+
+
